@@ -4,39 +4,40 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta name="description" content="Sharon is a passionate aspiring web developer who has built several demo projects using HTML,CSS, and JS.">
+    <meta name="description"
+        content="Sharon is a passionate aspiring web developer who has built several demo projects using HTML,CSS, and JS.">
     <title>Sharon Kim | 8-Bit Front-End Web Developer</title>
     <meta name="author" content="Sharon Kim">
     <!-- favicon-->
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
     <!-- Other CDN-->
-    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Personal CSS-->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-
+    <!-- Author Gyeong Mi (Sharon) Kim -->
     <!-- SKY Section with Clouds, Mario and Icons  -->
     <section class="sky">
-        <img class="custom-fade-in-800" src="img/mountains.png" alt="mountains" id="mountains"/>
-        <img class="custom-fade-in-800" src="img/cloud.png" alt="cloud" id="cloud-one"/>
-        <img class="custom-fade-in-800" src="img/cloud.png" alt="cloud" id="cloud-two"/>
-        <img class="custom-fade-in-800" src="img/cloud.png" alt="cloud" id="cloud-three"/>
-        <img class="custom-fade-in-800" src="img/cloud.png" alt="cloud" id="cloud-four"/>
-        <img class="custom-fade-in-800" src="img/cloud.png" alt="cloud" id="cloud-five"/>
-        <img class="custom-fade-in-800" src="img/js.png" alt="js" id="javascript"/>
-        <img class="custom-fade-in-800" src="img/react.png" alt="react" id="react"/>
-        <img class="custom-fade-in-800" src="img/htmlcss.png" alt="htmlcss" id="htmlcss"/>
-        <img class="custom-fade-in-800" src="img/coin.png" alt="coin" id="coin"/>
-        <img class="custom-fade-in-800" src="img/mario.png" alt="mario" id="mario"/>
+        <img class="custom-fade-in-800" src="img/mountains.png" alt="mountains" id="mountains" />
+        <img class="custom-fade-in-800" src="img/cloud.png" alt="cloud" id="cloud-one" />
+        <img class="custom-fade-in-800" src="img/cloud.png" alt="cloud" id="cloud-two" />
+        <img class="custom-fade-in-800" src="img/cloud.png" alt="cloud" id="cloud-three" />
+        <img class="custom-fade-in-800" src="img/cloud.png" alt="cloud" id="cloud-four" />
+        <img class="custom-fade-in-800" src="img/cloud.png" alt="cloud" id="cloud-five" />
+        <img class="custom-fade-in-800" src="img/js.png" alt="js" id="javascript" />
+        <img class="custom-fade-in-800" src="img/react.png" alt="react" id="react" />
+        <img class="custom-fade-in-800" src="img/htmlcss.png" alt="htmlcss" id="htmlcss" />
+        <img class="custom-fade-in-800" src="img/coin.png" alt="coin" id="coin" />
+        <img class="custom-fade-in-800" src="img/mario.png" alt="mario" id="mario" />
     </section>
     <!-- Grass -->
     <section class="open-grass-section">
@@ -114,53 +115,54 @@
             <!-- CENTER CONTENT -->
             <div class="col-lg-8">
                 <section class="three-information-container">
-                        <div class="row">
-                            <div class="col">
-                                <div class="image-container">
-                                    <img src="img/sharon.jpg" alt="Picture of Sharon Kim">
-                                </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="image-container">
+                                <img src="img/sharon.jpg" alt="Picture of Sharon Kim">
                             </div>
-                            <div class="col">
-                                <div id="about-sharon-id" class="nes-container is-dark with-title">
-                                    <p class="title">H3110 W0R1D!</p>
-                                    <p>
-                                        Sharon is a passionate aspiring web developer!
-                                        She is also a loving wife and a mom to the world's cutest dog!
+                        </div>
+                        <div class="col">
+                            <div id="about-sharon-id" class="nes-container is-dark with-title">
+                                <p class="title">H3110 W0R1D!</p>
+                                <p>
+                                    Sharon is a passionate aspiring web developer!
+                                    She is also a loving wife and a mom to the world's cutest dog!
 
-                                        Her portfolio includes several projects utilizing various Front-End
-                                        technologies and tools including HTML/CSS and Javascript. She has also
-                                        used React JS and bootstrap.
-                                    </p>
-                                </div>
+                                    Her portfolio includes several projects utilizing various Front-End
+                                    technologies and tools including HTML/CSS and Javascript. She has also
+                                    used React JS and bootstrap.
+                                </p>
                             </div>
-                            <div class="col">
-                                <div class="gif-generator">
-                                    <form id="search-form">
-                                        <label for="search-term">Enjoy your 8-bit Gifs from GIPHY!:</label>
-                                        <input type="text" id="name_field" class="nes-input" name="search-term" placeholder="Try '8-bit retro game'"/>
-                                        <button type="button" class="nes-btn is-primary" id="blue-button">ENTER</button>
-                                        <button type="button" class="nes-btn is-error" id="red-button">RESET</button>
-                                    </form>
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <div class="giphy-results" id="giphy-results-A">
-                                                <!-- CONTENT GOES HERE FROM JAVASCRIPT-->
-                                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="gif-generator">
+                                <form id="search-form">
+                                    <label for="search-term">Enjoy your 8-bit Gifs from GIPHY!:</label>
+                                    <input type="text" id="name_field" class="nes-input" name="search-term"
+                                        placeholder="Try '8-bit retro game'" />
+                                    <button type="button" class="nes-btn is-primary" id="blue-button">ENTER</button>
+                                    <button type="button" class="nes-btn is-error" id="red-button">RESET</button>
+                                </form>
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="giphy-results" id="giphy-results-A">
+                                            <!-- CONTENT GOES HERE FROM JAVASCRIPT-->
                                         </div>
-                                        <div class="col-lg-4">
-                                            <div class="giphy-results" id="giphy-results-B">
-                                                <!-- CONTENT GOES HERE FROM JAVASCRIPT-->
-                                            </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="giphy-results" id="giphy-results-B">
+                                            <!-- CONTENT GOES HERE FROM JAVASCRIPT-->
                                         </div>
-                                        <div class="col-lg-4">
-                                            <div class="giphy-results" id="giphy-results-C">
-                                                <!-- CONTENT GOES HERE FROM JAVASCRIPT-->
-                                            </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="giphy-results" id="giphy-results-C">
+                                            <!-- CONTENT GOES HERE FROM JAVASCRIPT-->
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </section>
             </div>
             <div class="col-lg-2"></div>
@@ -179,21 +181,23 @@
             </h2>
             <div class="mario-icon">
                 <i class="nes-mario"></i>
-            </div> 
-        </div>    
+            </div>
+        </div>
         <!-- 2 8 2 Row to center contact form in large view-->
         <div class="row">
             <div class="col-lg-2"></div>
-            <div class="col-lg-8">            
+            <div class="col-lg-8">
                 <!-- Contact Form-->
-                <div class="contact-form-field">   
+                <div class="contact-form-field">
                     <div class="nes-field">
                         <label for="name_field">First Name</label>
-                        <input type="text" id="name_field" name="firstname" placeholder="Your First Name..." class="nes-input">
+                        <input type="text" id="name_field" name="firstname" placeholder="Your First Name..."
+                            class="nes-input">
                     </div>
                     <div class="nes-field">
                         <label for="name_field">Last Name</label>
-                        <input type="text" id="name_field" name="lastname" placeholder="Your Last Name..." class="nes-input">
+                        <input type="text" id="name_field" name="lastname" placeholder="Your Last Name..."
+                            class="nes-input">
                     </div>
                     <label for="sucess_select">Country</label>
                     <div class="nes-select is-success">
@@ -204,7 +208,7 @@
                     </div>
                     <label for="default_select">State</label>
                     <div class="nes-select is-warning">
-                        <select required id="warning_select" >
+                        <select required id="warning_select">
                             <option value="" disabled selected hidden>Select...</option>
                             <option value="AL">Alabama</option>
                             <option value="AK">Alaska</option>
@@ -256,7 +260,7 @@
                             <option value="WA">Washington</option>
                             <option value="WV">West Virginia</option>
                             <option value="WI">Wisconsin</option>
-                            <option value="WY">Wyoming</option>                        
+                            <option value="WY">Wyoming</option>
                         </select>
                     </div>
                     <div class="nes-field">
@@ -265,11 +269,11 @@
                     </div>
                     <label for="textarea_field">Message</label>
                     <textarea id="textarea_field" class="nes-textarea"></textarea>
-                    <button type="button" class="nes-btn is-primary" id="send-button">SEND</button>    
-                </div>                  
+                    <button type="button" class="nes-btn is-primary" id="send-button">SEND</button>
+                </div>
             </div>
             <div class="col-lg-2"></div>
-        </div>    
+        </div>
     </section>
 
     <footer class="customized-footer-tab">
@@ -277,11 +281,13 @@
             <nav>
                 <ul class="footer-menu">
                     <li class="footer-menu-item">
-                        <a href="mailto:vsharonv91@gmail.com" class="footer__menu-link"><i class="nes-icon gmail is-large"></i>
+                        <a href="mailto:vsharonv91@gmail.com" class="footer__menu-link"><i
+                                class="nes-icon gmail is-large"></i>
                         </a>
                     </li>
                     <li class="footer-menu-item">
-                        <a href="https://www.linkedin.com/in/%F0%9F%91%A9%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BBgyeong-mi-sharon-kim-1877a4209/" class="footer__menu-link" target="_blank">
+                        <a href="https://www.linkedin.com/in/%F0%9F%91%A9%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BBgyeong-mi-sharon-kim-1877a4209/"
+                            class="footer__menu-link" target="_blank">
                             <i class="nes-icon linkedin is-large"></i>
                         </a>
                     </li>
@@ -312,9 +318,9 @@
 
     <!-- Jquery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
-    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <!-- Personal JavaScript -->
     <script src="js/AJAX.js"></script>
     <script src="js/index.js"></script>
